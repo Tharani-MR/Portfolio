@@ -1,0 +1,48 @@
+.skills-container {
+  margin-top: 5%;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.card {
+  background-color: #1e293b !important;
+  color: white;
+  border-radius: 12px;
+  padding: 10px;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+  border: none !important;
+  width: 18rem;
+}
+
+/* Card hover effect */
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 5px 10px rgba(16, 212, 242, 0.986);
+}
+
+/* Card title */
+.card-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: aqua;
+}
+
+/* List items */
+.list-group-item {
+  background-color: transparent !important;
+  color: white !important;
+  border: none !important;
+  padding-left: 8px;
+}
+.list-group-item:hover {
+  color: aqua !important;
+  text-shadow: 1px 1px 5px aqua;
+  box-shadow: 1px 2px 10px aqua;
+  border-radius: 12px;
+}

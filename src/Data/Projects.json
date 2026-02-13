@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "name": "Wells Fargo – Home Lending System",
+    "company": "Infosys",
+    "role": "Associate Consultant",
+    "domain": "Banking / Mortgage Services",
+    "duration": "2025 – Present",
+    "image": "HL_img.jpg",
+    "techStack": [
+      "Java",
+      "Spring Boot",
+      "REST APIs",
+      "Cucumber",
+      "MySQL",
+      "React JS"
+    ],
+    "overview": "Worked on a secure mortgage and home lending platform used by financial institutions to manage loan processing, customer data, and backend services.",
+    "responsibilities": "Developed and maintained REST APIs using Spring Boot, implemented BDD testing with Cucumber, and actively debugged and optimized backend services. Ensured secure handling of sensitive financial data while collaborating with cross-functional teams to analyze requirements and deliver scalable solutions.",
+    "impact": [
+      "Improved system reliability and performance",
+      "Delivered scalable backend solutions",
+      "Contributed to maintaining 90%+ customer satisfaction"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Xerox DocuShare",
+    "company": "HCL Technologies",
+    "role": "Senior Software Engineer",
+    "domain": "Content Management System",
+    "duration": "2022 – 2024",
+    "image": "Xerox_img.png",
+    "techStack": [
+      "Java",
+      "XML",
+      "Xforms",
+      "Spring Boot",
+      "REST APIs",
+      "React JS"
+    ],
+    "overview": "Worked on an enterprise-level document management system enabling secure document storage, collaboration, and workflow automation.",
+    "responsibilities": "Implemented new feature enhancements based on client requirements, developed responsive UI components using React JS, and integrated frontend with backend services. Focused on writing reusable and optimized code while resolving production-level issues efficiently.",
+    "impact": [
+      "Improved UI performance and usability",
+      "Reduced recurring issues through code optimization"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "DBS Banking Application",
+    "company": "HCL Technologies",
+    "role": "Software Engineer",
+    "domain": "Banking",
+    "duration": "2021 – 2022",
+    "image": "DBS_img.png",
+    "techStack": ["Java", "Spring Boot", "MySQL", "REST APIs", "React JS"],
+    "overview": "Contributed to backend service development for a banking application handling customer transactions and account services.",
+    "responsibilities": "Developed and maintained REST APIs using Spring Boot, integrated MySQL database services, conducted API testing using Postman, and supported performance optimization initiatives to ensure stable and efficient banking operations.",
+    "impact": [
+      "Delivered stable backend services",
+      "Ensured smooth transaction processing"
+    ]
+  }
+]

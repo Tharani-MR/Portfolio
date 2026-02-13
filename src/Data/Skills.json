@@ -1,0 +1,44 @@
+{
+  "frontend": {
+    "title": "Frontend",
+    "items": [
+      { "name": "React JS", "icon": "FaReact" },
+      { "name": "HTML", "icon": "FaHtml5" },
+      { "name": "CSS", "icon": "FaCss3Alt" },
+      { "name": "Bootstrap", "icon": "FaBootstrap" },
+      { "name": "JavaScript", "icon": "FaJs" }
+    ]
+  },
+
+  "backend": {
+    "title": "Backend",
+    "items": [
+      { "name": "Core Java", "icon": "FaJava" },
+      { "name": "Spring Boot", "icon": "SiSpringboot" },
+      { "name": "REST APIs", "icon": "FaServer" },
+      { "name": "MySQL", "icon": "FaDatabase" },
+      { "name": "JUnit", "icon": "FaVial" },
+      { "name": "Cucumber", "icon": "TbBrandCucumber" }
+    ]
+  },
+
+  "tools": {
+    "title": "Tools",
+    "items": [
+      { "name": "Git", "icon": "FaGitAlt" },
+      { "name": "Azure DevOps", "icon": "VscAzureDevops" },
+      { "name": "Postman", "icon": "SiPostman" },
+      { "name": "Jira", "icon": "SiJira" },
+      { "name": "BrowserStack", "icon": "GiBrassEye" },
+      { "name": "Splunk", "icon": "SiSplunk" }
+    ]
+  },
+
+  "inProgress": {
+    "title": "Learning In Progress",
+    "items": [
+      { "name": "Microservices", "icon": "FaServer" },
+      { "name": "Gen AI", "icon": "RiAiGenerate2" }
+    ]
+  }
+}

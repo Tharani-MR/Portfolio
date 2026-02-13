@@ -1,0 +1,123 @@
+.about-topContainer {
+  display: flex;
+}
+.about-img {
+  display: flex;
+  margin-left: 10%;
+  margin-top: 10%;
+  width: 400px;
+  height: 500px;
+  justify-content: flex-start;
+}
+.about-container {
+  margin-top: 3%;
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  justify-content: right;
+  color: white;
+  max-width: 100%;
+  min-height: 100vh;
+}
+
+.about-title {
+  display: flex;
+  color: white;
+  text-shadow: 1px 1px 5px aqua;
+  margin-left: 40%;
+  padding-bottom: 6px;
+}
+.about-intro {
+  color: whitesmoke;
+  width: 80%;
+  margin-left: 10%;
+  border-style: none none none solid;
+  border-color: aqua;
+  border-width: 7px;
+  padding-left: 10px;
+}
+.about-intro:hover {
+  color: aqua;
+}
+.timeline {
+  margin-left: 40%;
+  padding: 10px;
+  border-style: none none none dashed;
+  border-color: aqua;
+}
+.timeline-item {
+  box-shadow: 2px 2px 5px aqua;
+  justify-content: center;
+  height: 30%;
+  width: 50%;
+  padding: 10px;
+  color: yellow;
+  transition: transform 0.3s ease;
+}
+.timeline-item:hover {
+  color: violet;
+  transform: scale(1.05);
+}
+.timeline-item2 {
+  margin-left: -55%;
+}
+
+@media (max-width: 768px) {
+  .about-container {
+    margin-left: 0%;
+    width: 100%;
+  }
+  .about-intro:hover {
+    color: aqua;
+  }
+  .about-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+    color: white;
+    text-shadow: 1px 1px 6px aqua;
+    font-family: "Times New Roman", Times, serif;
+  }
+  .about-topContainer {
+    display: inline;
+  }
+  .about-img {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    margin-left: 7%;
+    margin-top: 0;
+    justify-content: flex-end;
+  }
+  .about-intro {
+    font-size: 0.9rem;
+  }
+  .timeline-item {
+    height: 30%;
+    width: 100%;
+    padding: 4px;
+    color: yellow;
+  }
+  .timeline-item:hover {
+    color: violet;
+    height: 30%;
+    width: 100%;
+  }
+  .timeline-item2 {
+    margin-left: -108%;
+  }
+  .timeline {
+    margin-left: 50%;
+    padding: 4px;
+    border-style: none none none dashed;
+    border-color: aqua;
+    font-size: 0.7rem;
+  }
+  h5 {
+    font-size: 0.7rem;
+  }
+  h6 {
+    font-size: 0.7rem;
+  }
+}

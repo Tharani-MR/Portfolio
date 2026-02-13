@@ -1,0 +1,30 @@
+.navContainer {
+  background-color: #0f172a;
+  color: aliceblue;
+}
+
+.navContainer .nav-link {
+  color: #ffffff;
+  font-size: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav-link:hover {
+  font-size: 1.1rem;
+  color: aqua !important;
+  text-shadow: 2px 2px 5px aquamarine;
+  box-shadow: 1px 2px 10px aqua;
+  border-radius: 12px;
+  border-style: none none solid none;
+  border-color: aqua;
+}
+.nav-link:visited {
+  color: white !important;
+}
+
+.navContainer .navbar-toggler {
+  color: #ffffff;
+}
+
+.navContainer .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
